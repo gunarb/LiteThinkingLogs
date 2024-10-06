@@ -1,0 +1,6 @@
+@LiteThinkingLogs_HostAddress = http://localhost:5225
+
+GET {{LiteThinkingLogs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
