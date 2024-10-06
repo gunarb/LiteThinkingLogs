@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Application
+﻿namespace Application
 {
-    internal class GetLogsUseCase
+    public class GetLogsUseCase<T>
     {
+        private readonly IRepository<T> _repository;
+        
+        public GetLogsUseCase(IRepository<T> repository) => _repository = repository;
+
+        public async Task<IEnumerable<T>> ExecuteAsync()
+        {
+            return await _repository.GetAllAsync();
+        }
     }
 }

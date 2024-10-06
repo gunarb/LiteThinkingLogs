@@ -3,19 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteThinkingLogs", "LiteThinkingLogs\LiteThinkingLogs.csproj", "{3CF2DABD-94F9-45D8-93A3-1475012ED9FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteThinkingLogs", "LiteThinkingLogs\LiteThinkingLogs.csproj", "{3CF2DABD-94F9-45D8-93A3-1475012ED9FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{D518D375-AC4C-44EF-A889-D4DB981491D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{D518D375-AC4C-44EF-A889-D4DB981491D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{4EEB8203-55AE-4F3B-AA71-34F5725571C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{4EEB8203-55AE-4F3B-AA71-34F5725571C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAdapters-Mappers", "InterfaceAdapters-Mappers\InterfaceAdapters-Mappers.csproj", "{54055061-FB99-46A3-9CF5-7C012CB55504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAdapters-Repository", "InterfaceAdapters-Repository\InterfaceAdapters-Repository.csproj", "{65628E58-50F1-4CE9-B15F-5FBDD1FA5957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAdapters-Data", "InterfaceAdapters-Data\InterfaceAdapters-Data.csproj", "{F5B0A20A-A1DA-4CF5-9495-CAE17EAA78A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3CF2DABD-94F9-45D8-93A3-1475012ED9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +33,23 @@ Global
 		{4EEB8203-55AE-4F3B-AA71-34F5725571C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EEB8203-55AE-4F3B-AA71-34F5725571C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EEB8203-55AE-4F3B-AA71-34F5725571C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54055061-FB99-46A3-9CF5-7C012CB55504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54055061-FB99-46A3-9CF5-7C012CB55504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54055061-FB99-46A3-9CF5-7C012CB55504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54055061-FB99-46A3-9CF5-7C012CB55504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65628E58-50F1-4CE9-B15F-5FBDD1FA5957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65628E58-50F1-4CE9-B15F-5FBDD1FA5957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65628E58-50F1-4CE9-B15F-5FBDD1FA5957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65628E58-50F1-4CE9-B15F-5FBDD1FA5957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B0A20A-A1DA-4CF5-9495-CAE17EAA78A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B0A20A-A1DA-4CF5-9495-CAE17EAA78A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B0A20A-A1DA-4CF5-9495-CAE17EAA78A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B0A20A-A1DA-4CF5-9495-CAE17EAA78A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF4BB161-78BC-42B6-91D3-3630F56675D4}
 	EndGlobalSection
 EndGlobal

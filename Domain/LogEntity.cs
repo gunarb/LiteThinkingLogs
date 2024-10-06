@@ -1,12 +1,19 @@
-﻿namespace Domain;
+﻿using Newtonsoft.Json;
 
-public class LogEntity
+namespace Domain
 {
-    public Guid LogId { get; set; }
+    public class LogEntity
+    {
+        [JsonProperty("id")]
+        public Guid LogId { get; set; }
+        
+        [JsonProperty("type")]
+        public required string LogType { get; set; }
 
-    public required string Type { get; set; }
-    
-    public string? Description { get; set; }
-    
-    public DateTime CreateDate { get; set; }
+        [JsonProperty("description")]
+        public string? LogDescription { get; set; }
+
+        [JsonProperty("creationDate")]
+        public DateTime CreateDate { get; set; }
+    }
 }
